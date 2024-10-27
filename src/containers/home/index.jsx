@@ -14,7 +14,6 @@ const Home = () => {
 
   return (
     <section id='home' className='home'>
-
       <div className='home__text-wrapper'>
         <h1>
           Hello, I'm Rahul Mahto
@@ -35,8 +34,8 @@ const Home = () => {
           </div>
           <div className='home__download-resume'>
             <a target='_blank' rel="noreferrer" href="https://drive.google.com/file/d/1SVEqnUjCKO7iQGrzyBIqjBnmvQmRMyA0/view?usp=sharing" download="Rahul_Mahto_SDE.pdf">
-              <button style={{ padding: '10px 20px', fontSize: '16px', cursor: 'pointer' }}>
-                Download Resume 
+              <button >
+                 Resume 
               </button>
             </a>
           </div>

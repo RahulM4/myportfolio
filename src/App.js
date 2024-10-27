@@ -19,22 +19,18 @@ function App() {
 
   return (
     <div className="App">
+      
+     {/* NavBar */}
+     <Navbar/>
+
       {/* Particle.js */}
+     {renderTsParticlesinHomePage && <ParticlesComponent id ="tsparticles"/>}
 
-     
-     {
-       renderTsParticlesinHomePage && <ParticlesComponent id ="tsparticles"/>
-     }
-
-      {/* NavBar */}
-      <Navbar/>
       {/* Main Page content */}
-
       <div className='App__main-page-content'>
 
       <Routes>
         <Route index  path='/' element={<Home/>}/>
-        <Route  path='/navbar' element={<Navbar/>}/> 
         <Route  path='/about' element={<About/>}/>
         <Route  path='/resume' element={<Resume/>}/>
         <Route  path='/skills' element={<Skills/>}/>

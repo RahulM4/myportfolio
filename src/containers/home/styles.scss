@@ -33,13 +33,13 @@
   
     button {
       cursor: pointer;
-      padding: 10px 65px;
+      padding: 10px 20px;
       font-size: 2rem;
       background: transparent;
       color: var(--yellow-theme-main-color);
-      border: 1.5px solid var(--yellow-theme-main-color);
+      border: 2px solid var(--yellow-theme-main-color);
       border-radius: 4px;
-      font-weight: 500;
+      font-weight: 600;
   
       &:hover {
         background-color: var(--yellow-theme-main-color);
@@ -52,7 +52,7 @@
     .home {
       &__text-wrapper {
         h1 {
-          font-size: 4rem;
+          font-size: 3rem;
           line-height: 4rem;
         }
       }

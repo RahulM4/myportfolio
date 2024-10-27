@@ -15,7 +15,7 @@ const Portfolio = () => {
   const HandleHover = (index) => {
     setHoveredIndex(index);
   }
-  console.log(hoveredIndex);
+  // console.log(hoveredIndex);
 
   const handleFilter = (currId) => {
     setFilterValue(currId)
@@ -53,7 +53,7 @@ const Portfolio = () => {
               onMouseLeave={()=>HandleHover(null)}
               >
                 <div className='portfolio__content__cards__card__image-wrapper'>
-                  <a target='_blank' without rel="noreferrer" href={item.projectLink} >
+                  <a target='_blank' rel="noreferrer" href={item.projectLink} >
                     <img  src={item.imageUrl} alt={item.title} />
                   </a>
                 </div>

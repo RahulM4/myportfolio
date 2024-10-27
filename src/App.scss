@@ -1,8 +1,25 @@
-.App{
+.App {
   font-family: 'Rethink Sans', sans-serif;
   height: 100%;
-  &__main-page-content{
+
+  &__main-page-content {
+    position: relative;
     height: calc(100% - 80px);
+    z-index: 1; // Ensure main content is above particles
   }
 }
 
+.navbar {
+  position: relative;
+  z-index: 2; // Navbar stays above particles
+}
+
+.particles-container {
+  position: absolute;
+  top: 0; // Start right below the navbar
+  left: 0;
+  width: 100%;
+  height: 100%; // Cover the entire main page content area
+  z-index: 0; // Ensure particles stay behind content
+  pointer-events: none; // Prevents particles from interfering with clicks
+}
