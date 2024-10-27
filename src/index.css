@@ -1,0 +1,33 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap');  
+
+:root{
+  --yellow-theme-background-color: #fdf4d6;  
+  --yellow-theme-main-color: #f39c12;       
+  --yellow-theme-sub-text-color: #8e8e8e;    
+  --yellow-theme-nav-background-color: #f39d1292;
+  --yellow-theme-hover-color: #e67e22;
+  --yellow-theme-progress-bar: #F7C265;
+  --yellow-theme-color-text: #000000;
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+html{
+  font-size: 62.5%;
+  height: 100%;
+}
+
+body{
+    background: var(--yellow-theme-background-color);
+    height: 100%;
+}
+
+#root{
+  height: 100%;
+}

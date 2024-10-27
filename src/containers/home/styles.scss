@@ -1,0 +1,50 @@
+.home {
+    position: relative;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+  
+    &__text-wrapper {
+      justify-content: center;
+      display: flex;
+  
+      h1 {
+        color: var(--yellow-theme-main-color);
+        margin: 0;
+        font-weight: 500;
+        font-size: 8rem;
+        line-height: 10rem;
+        position: relative;
+        overflow: hidden;
+        white-space: nowrap;
+        animation: typingEffectAnimation 2.5s steps(30, end);
+      }
+    }
+  
+    &__container-wrapper { /* Added class for flex container */
+      display: flex; /* Enables flexbox */
+      align-items: center; /* Aligns buttons vertically */
+      justify-content: center; /* Centers buttons horizontally */
+      gap: 10px; /* Space between buttons */
+      margin-top: 20px; /* Optional: add some spacing from the text */
+    }
+  
+    button {
+      cursor: pointer;
+      padding: 10px 65px;
+      font-size: 2rem;
+      background: transparent;
+      color: var(--yellow-theme-main-color);
+      border: 1.5px solid var(--yellow-theme-main-color);
+      border-radius: 4px;
+      font-weight: 500;
+  
+      &:hover {
+        background-color: var(--yellow-theme-main-color);
+        color: #000000;
+      }
+    }
+  }
+  

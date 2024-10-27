@@ -1,0 +1,114 @@
+.resume{
+    width: 100%;
+}
+
+.timeline{
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    &__experience, &__education{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+        &__header-text{
+            display: inline-block;
+            color: var(--yellow-theme-main-color);
+            font-size: 20px;
+            font-weight: 800;
+            margin-top: 20px;
+            line-height: 1rem;
+            letter-spacing: 1px;
+            position: relative;
+            text-transform: uppercase;
+            padding: 10px 10px;
+            border-bottom: 2px solid var(--yellow-theme-main-color);
+
+        }
+        &__header-text::before, &__header-text::after{
+            position: absolute;
+            content: '';
+            width: 2px;
+            height: 5px;
+            background-color: var(--yellow-theme-main-color);
+            bottom: -1px;
+        }
+        &__header-text::before{
+            left: 0;
+        }
+        &__header-text::after{
+            right: 0;
+        }
+        &__vertical-timeline-element{
+            padding: 0px 0px 20px 0px;
+
+            &:last-child{
+                padding-bottom: 0px;
+            }
+        }
+        .vertical-timeline-element-title-wrapper{
+          align-items: center;    
+          text-align: justify; 
+          h2{
+            color: var(--yellow-theme-main-color);
+            font-weight: 600;
+            font-size: 1.6rem;
+          }
+          h1{
+            color: var(--yellow-theme-sub-text-color);
+            font-weight: 600;
+            font-size: 1.8rem;
+          }
+          
+          
+          .h3__heading{
+            color: var(--yellow-theme-sub-text-color);
+            font-weight: 600;
+            font-size: 1.4rem;
+          }
+          .h4__heading{
+            color: var(--yellow-theme-sub-text-color);
+            font-weight: 600;
+            font-size: 1.2rem;
+          }
+          h5{
+            color: var(--yellow-theme-sub-text-color);
+            font-weight: 600;
+            font-size: 1.2rem;
+          }
+        }
+
+    }
+}
+
+.vertical-timeline-element-title{
+ color: var(--yellow-theme-main-color);
+}
+
+.img-logo-round{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    color: var(--yellow-theme-main-color);
+  } 
+
+  .date-text{
+    color: var(--yellow-theme-sub-text-color);
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+@media only screen and (max-width : 768px){
+    .timeline{
+        gap: 2rem;
+        flex-direction: column;
+        &__experience, &__education{
+            width: 100%;
+        }
+    }
+    
+}
