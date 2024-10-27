@@ -47,4 +47,15 @@
       }
     }
   }
+
+  @media only screen and (max-width: 768px) {
+    .home {
+      &__text-wrapper {
+        h1 {
+          font-size: 4rem;
+          line-height: 4rem;
+        }
+      }
+    }
+  }
   
