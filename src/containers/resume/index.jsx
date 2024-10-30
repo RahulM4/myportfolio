@@ -1,11 +1,9 @@
-
-
 import PageHeaderContent from '../../components/pageHeaderContent';
-import { BsInfoCircleFill } from 'react-icons/bs';
 import React from 'react'
 import './styles.scss';
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
+import {FaBriefcase} from 'react-icons/fa';
 import resumeData from "./resume.js";
 
 
@@ -17,7 +15,7 @@ const Resume = () => {
   return (
     <section id='resume' className='resume'>
       <PageHeaderContent headerText="Resume"
-        icon={<BsInfoCircleFill size={40} />}
+        icon={<FaBriefcase size={40} />}
       />
 
       <div className='timeline'>

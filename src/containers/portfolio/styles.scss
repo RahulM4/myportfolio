@@ -34,11 +34,12 @@
             grid-auto-rows: auto;
             gap: 1rem;
             margin-top: 10px;
+            
             &__card{
                height: 366px;
                cursor: pointer;
                position: relative;
-
+                
                &:hover .overlay{
                    opacity: 1;
                }
@@ -51,6 +52,7 @@
                         height: inherit;
                         object-fit: cover;   
                         width: 100%;
+                        border-radius: 6px;
                     }
                    }
                }

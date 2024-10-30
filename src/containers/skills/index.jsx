@@ -1,18 +1,17 @@
 import PageHeaderContent from '../../components/pageHeaderContent';
-import { BsInfoCircleFill } from 'react-icons/bs';
 import React from 'react';
 import './styles.scss';
 import { AnimateKeyframes } from 'react-simple-animate';
 import ProgressBar from './ProgressBar';
 import skillsData from "./skills.js"; // Ensure this is correct
-
+import {FaLaptopCode} from 'react-icons/fa'
 const Skills = () => {
  
 
   return (
     <section id='skills' className='skills'>
       <PageHeaderContent headerText="Tech Skills"
-        icon={<BsInfoCircleFill size={40} />}
+        icon={<FaLaptopCode size={40} />}
       />
 
       <div className='skills__content-wrapper'>

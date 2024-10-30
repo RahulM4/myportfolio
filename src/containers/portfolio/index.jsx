@@ -1,16 +1,13 @@
 import './styles.scss';
 import PageHeaderContent from '../../components/pageHeaderContent';
-import { BsInfoCircleFill } from 'react-icons/bs';
 import React, { useState } from 'react'
 import { projectsData, filterData } from './projects.js';
-
+import {FaTools} from 'react-icons/fa';
 
 
 const Portfolio = () => {
   const [filterdValue, setFilterValue] = useState(1);
-
   const [hoveredIndex, setHoveredIndex] = useState(null);
-
 
   const HandleHover = (index) => {
     setHoveredIndex(index);
@@ -21,18 +18,12 @@ const Portfolio = () => {
     setFilterValue(currId)
   }
 
-
-
   const filterItems = filterdValue === 1 ? projectsData : projectsData.filter((item) => item.id === filterdValue);
-  // console.log(filterItems);
-
-
-
 
   return (
     <section id='portfolio' className='portfolio'>
       <PageHeaderContent headerText="Projects"
-        icon={<BsInfoCircleFill size={40} />}
+        icon={<FaTools size={40} />}
       />
 
       <div className='portfolio__content'>

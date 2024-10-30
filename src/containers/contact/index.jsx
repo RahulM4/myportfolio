@@ -1,10 +1,10 @@
 import React, { useRef, useState } from "react";
-import PageHeaderContent from "../../components/pageHeaderContent";
-import { BsInfoCircleFill } from "react-icons/bs";
-import { Animate } from "react-simple-animate";
 import "./styles.scss";
+import PageHeaderContent from "../../components/pageHeaderContent";
+import {FaEnvelope} from 'react-icons/fa';
+import { Animate } from "react-simple-animate";
 import emailjs from '@emailjs/browser';
-import  loadingAnimation from '../../components/preLoader/lottieAnimation.json';
+import loadingAnimation from '../../components/preLoader/lottieAnimation.json';
 import Lottie from 'lottie-react';
 
 const Contact = () => {
@@ -49,8 +49,8 @@ const Contact = () => {
   return (
     <section id="contact" className="contact">
       <PageHeaderContent
-        headerText="My Contact"
-        icon={<BsInfoCircleFill size={40} />}
+        headerText="Contact Me"
+        icon={<FaEnvelope size={40} />}
       />
       <div className="contact__content">
         <Animate

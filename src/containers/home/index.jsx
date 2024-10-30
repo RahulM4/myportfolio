@@ -1,8 +1,7 @@
 import { useNavigate } from 'react-router-dom';
 import React from 'react';
 import './styles.scss';
-import { Animate } from 'react-simple-animate';
-
+import { Animate} from 'react-simple-animate';
 const Home = () => {
 
   const navigate = useNavigate();
