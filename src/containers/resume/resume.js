@@ -11,6 +11,15 @@ const resumeData = [
         duration: "Dec 2024 - Present"
       },
       {
+        role: "Cyber Security Intern",
+        company: "Centre for Development of Advanced Computing CDAC",
+        techstack: "Linux, Cyber Security, Networking",
+        address: "Noida, India",
+        logo: "https://th.bing.com/th/id/OIP.MmS-VBVnGMbQSnDzqjUtlwHaE8?rs=1&pid=ImgDetMain",
+        description: "Worked on various projects and contributed to open-source projects.",
+        duration: "Sept 2024 - Oct 2024"
+      },
+      {
         role: "Advanced Math Expert",
         company: "Chegg India Private Limited",
         techstack: "LaTeX, MS Office, Content Writing",

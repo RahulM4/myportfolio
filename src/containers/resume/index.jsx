@@ -1,6 +1,6 @@
-import PageHeaderContent from '../../components/pageHeaderContent';
 import React from 'react'
 import './styles.scss';
+import PageHeaderContent from '../../components/pageHeaderContent';
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import {FaBriefcase} from 'react-icons/fa';
