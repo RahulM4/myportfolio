@@ -89,7 +89,7 @@ const About = () => {
               {/* social medid handle links  */}
               <li style={{"list-style-type": "none"}}>
                 {/* Lnkedin */}
-                <a href="https://www.linkedin.com/in/rahul-mahto-0b5a2b1b7/" target="_blank" rel="noreferrer">
+                <a href="https://www.linkedin.com/in/rahulmahto4/" target="_blank" rel="noreferrer">
                   <FaLinkedin size={40} color='var(--yellow-theme-main-color)' />
                 </a>
                 {/* Github */}
@@ -97,7 +97,7 @@ const About = () => {
                   <FaGithub size={40} color='var(--yellow-theme-main-color)' />
                 </a>
                 {/* LeetCode */}
-                <a href="https://leetcode.com/rahulforcoding4/" target="_blank" rel="noreferrer"></a>
+                <a href="https://leetcode.com/u/rahulforcoding4/" target="_blank" rel="noreferrer"></a>
                   <FaCode  size={40} color='var(--yellow-theme-main-color)' />
                 
               </li>
