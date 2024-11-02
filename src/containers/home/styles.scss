@@ -9,12 +9,12 @@
     &__text-wrapper {
       justify-content: center;
       display: flex;
+
   
       h1 {
         color: var(--yellow-theme-main-color);
-        margin: 0;
         font-weight: 500;
-        font-size: 8rem;
+        font-size: 6rem;
         line-height: 10rem;
         position: relative;
         overflow: hidden;
@@ -45,6 +45,24 @@
         background-color: var(--yellow-theme-main-color);
         color: #000000;
       }
+    }
+  }
+
+
+  .home__profile-picture{
+    // Round profile picture with transparent background
+    img{
+      border-radius: 50%;
+      background-color: rgba(255, 255, 255, 0.5);
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+      width: 200px;   
+      height: 200px;
+      object-fit: cover;
+      position: absolute;
+      transform: translate(-50%, -50%); 
+      left: 50%;
+      bottom: 55%;
+
     }
   }
 

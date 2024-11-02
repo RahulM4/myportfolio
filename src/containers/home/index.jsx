@@ -1,7 +1,7 @@
 import { useNavigate } from 'react-router-dom';
 import React from 'react';
 import './styles.scss';
-import { Animate} from 'react-simple-animate';
+import { Animate } from 'react-simple-animate';
 const Home = () => {
 
   const navigate = useNavigate();
@@ -13,14 +13,21 @@ const Home = () => {
 
   return (
     <section id='home' className='home'>
+        
       <div className='home__text-wrapper'>
         <h1>
           Hello, I'm Rahul Mahto
           <br />
           Full Stack Developer
         </h1>
+        {/* Profile Picture */}
+        <div className='home__profile-picture'>
+          <img
+            src='C:/Users/Rahul Mahto/Desktop/myportfolio/src/assets/me.jpg'
+            alt='Profile Picture'
+          />
+        </div>  
       </div>
-
       <Animate play duration={1.5} delay={1} start={{
         transform: 'translateY(550px)'
       }}
@@ -32,9 +39,9 @@ const Home = () => {
             <button onClick={handleNavigateToContactMePage}>Hire Me</button>
           </div>
           <div className='home__download-resume'>
-            <a target='_blank' rel="noreferrer" href="https://drive.google.com/file/d/1SVEqnUjCKO7iQGrzyBIqjBnmvQmRMyA0/view?usp=sharing" download="Rahul_Mahto_SDE.pdf">
+            <a target='_blank' rel="noreferrer" href="https://drive.google.com/file/d/1In--gRTfOrMlpk_2ZmF_xLZTTIooIDGS/view" download="Rahul_Mahto_SDE.pdf">
               <button >
-                 Resume 
+                Resume
               </button>
             </a>
           </div>
