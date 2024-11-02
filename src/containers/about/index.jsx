@@ -1,10 +1,11 @@
 import React from 'react'
 import './styles.scss';
 import { DiAndroid, DiVisualstudio } from 'react-icons/di';
-import { FaDev,FaLock,FaDatabase} from 'react-icons/fa';
+import { FaDev, FaLock, FaDatabase } from 'react-icons/fa';
 import PageHeaderContent from '../../components/pageHeaderContent';
 import { BsInfoCircleFill } from "react-icons/bs";
 import { Animate } from 'react-simple-animate';
+import { FaGithub, FaLinkedin, FaCode  } from 'react-icons/fa';
 
 const jobSummary = 'Detail-oriented and results-driven Software Engineer with a strong background in backend development and a proven track record of delivering innovative solutions. Proficient in multiple programming languages including C++, Java, JavaScript, Python, and SQL, with hands-on experience in web application development using the MERN stack. Demonstrated expertise in machine learning projects, notably in pneumonia detection from chest X-ray images using federated learning. Adept at identifying security vulnerabilities and recommending mitigation strategies. A collaborative team player with excellent problem-solving skills, committed to leveraging technology for impactful results.';
 const personalDetails = [
@@ -32,6 +33,7 @@ const personalDetails = [
 
 
 
+
 const About = () => {
   return (
     <section id='about' className='about'>
@@ -53,8 +55,6 @@ const About = () => {
             <p>{jobSummary}</p>
           </Animate>
 
-
-
           <Animate
             play duration={1} delay={1} start={{
               transform: 'translateX(500px)'
@@ -67,7 +67,7 @@ const About = () => {
             <ul >
               {
                 personalDetails.map((item, key) => (
-                  <li key={key}>
+                  <li key={key} style={{"list-style-type": "none"}}> 
                     <span className='title'>{item.label} :</span>
                     <span className='value'>{item.value}</span>
                   </li>
@@ -75,7 +75,36 @@ const About = () => {
               }
             </ul>
           </Animate>
-   
+
+          <Animate
+            play duration={1} delay={1} start={{
+              transform: 'translateX(-900px)'
+            }}
+            end={{
+              transform: 'translateY(0px)'
+            }}
+          >
+            <h3 className='personalInformationHeaderText'>Social Profiles</h3>
+           
+              {/* social medid handle links  */}
+              <li style={{"list-style-type": "none"}}>
+                {/* Lnkedin */}
+                <a href="https://www.linkedin.com/in/rahul-mahto-0b5a2b1b7/" target="_blank" rel="noreferrer">
+                  <FaLinkedin size={40} color='var(--yellow-theme-main-color)' />
+                </a>
+                {/* Github */}
+                <a href="https://github.com/RahulM4" target="_blank" rel="noreferrer">
+                  <FaGithub size={40} color='var(--yellow-theme-main-color)' />
+                </a>
+                {/* LeetCode */}
+                <a href="https://leetcode.com/rahulforcoding4/" target="_blank" rel="noreferrer"></a>
+                  <FaCode  size={40} color='var(--yellow-theme-main-color)' />
+                
+              </li>
+
+          </Animate>
+
+
         </div>
         <div className='about__content__serviceWrapper'>
           <Animate
@@ -101,16 +130,17 @@ const About = () => {
                 <FaLock size={40} color='var(--yellow-theme-main-color)' />
               </div>
               <div>
-               <DiVisualstudio size={40} color='var(--yellow-theme-main-color)' />
+                <DiVisualstudio size={40} color='var(--yellow-theme-main-color)' />
               </div>
 
-            </div>                
+            </div>
           </Animate>
-
+         
         </div>
+
       </div>
 
-     
+
     </section>
   )
 }

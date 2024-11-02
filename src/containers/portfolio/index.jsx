@@ -36,6 +36,7 @@ const Portfolio = () => {
             ))
           }
         </ul>
+
         <div className='portfolio__content__cards'>
           {
             filterItems.map((item,index) => (
@@ -48,15 +49,15 @@ const Portfolio = () => {
                     <img  src={item.imageUrl} alt={item.title} />
                   </a>
                 </div>
-
+                <p>Click to view project details</p>
                 <div className='overlay'> 
                 {
                   
                   hoveredIndex === index && (
                     <div>
-                      {/* <p>{item.title}</p> */}
+                      
                       <p dangerouslySetInnerHTML={{ __html: item.title }} />
-                      <button>View Project</button>
+                      <a target='_blank' href={item.projectLink}><button>View Project</button></a>
                     </div>
                   )
                 }
