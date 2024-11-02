@@ -23,7 +23,7 @@ const Home = () => {
         {/* Profile Picture */}
         <div className='home__profile-picture'>
           <img
-            src='C:/Users/Rahul Mahto/Desktop/myportfolio/src/assets/me.jpg'
+            src='https://raw.githubusercontent.com/RahulM4/myportfolio/refs/heads/main/src/assets/me.jpg'
             alt='Profile Picture'
           />
         </div>  
