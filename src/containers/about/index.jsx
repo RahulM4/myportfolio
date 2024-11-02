@@ -97,9 +97,9 @@ const About = () => {
                   <FaGithub size={40} color='var(--yellow-theme-main-color)' />
                 </a>
                 {/* LeetCode */}
-                <a href="https://leetcode.com/u/rahulforcoding4/" target="_blank" rel="noreferrer"></a>
+                <a href="https://leetcode.com/u/rahulforcoding4/" target="_blank" rel="noreferrer">
                   <FaCode  size={40} color='var(--yellow-theme-main-color)' />
-                
+                  </a>
               </li>
 
           </Animate>
