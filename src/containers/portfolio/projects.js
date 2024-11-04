@@ -19,7 +19,7 @@ const projectsData =[
     title: "Accountsy Bill",
     techStack: ["MongoDB", "Express", "ReactJS","Nodejs", "JavaScript", "EmailService", "Cloudinary"],
     projectLink: "https://github.com/RahulM4/Accountsy-Bill",
-    imageUrl: "https://raw.githubusercontent.com/RahulM4/Accountsy-Bill/refs/heads/main/client/public/accountsybill.png?token=GHSAT0AAAAAACYDXYZ47V2BIN65JEIBCFVSZZIL4UA",
+    imageUrl: "https://raw.githubusercontent.com/RahulM4/Accountsy-Bill/refs/heads/main/accountsybill.png",
   },
   {
     id :2,
