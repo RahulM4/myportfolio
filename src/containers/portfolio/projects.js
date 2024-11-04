@@ -16,6 +16,13 @@ const projectsData =[
   },
   {
     id :2,
+    title: "Accountsy Bill",
+    techStack: ["MongoDB", "Express", "ReactJS","Nodejs", "JavaScript", "EmailService", "Cloudinary"],
+    projectLink: "https://github.com/RahulM4/Accountsy-Bill",
+    imageUrl: "https://github.com/RahulM4/Accountsy-Bill/blob/main/client/public/accountsybill.png",
+  },
+  {
+    id :2,
     title: "NotesKeeper",
     techStack: ["MongoDB", "Express", "ReactJS","Nodejs", "JavaScript", "SocketIO", "Cloudinary"],
     projectLink: "https://github.com/RahulM4/NotesKeeper-ReactApp/tree/main",
