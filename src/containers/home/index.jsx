@@ -39,7 +39,7 @@ const Home = () => {
             <button onClick={handleNavigateToContactMePage}>Hire Me</button>
           </div>
           <div className='home__download-resume'>
-            <a target='_blank' rel="noreferrer" href="https://drive.google.com/file/d/1In--gRTfOrMlpk_2ZmF_xLZTTIooIDGS/view" download="Rahul_Mahto_SDE.pdf">
+            <a target='_blank' rel="noreferrer" href="https://drive.google.com/file/d/1In--gRTfOrMlpk_2ZmF_xLZTTIooIDGS/view?usp=sharing" download="Rahul_Mahto_SDE.pdf">
               <button >
                 Resume
               </button>
