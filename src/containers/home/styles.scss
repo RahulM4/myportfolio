@@ -53,8 +53,8 @@
     // Round profile picture with transparent background
     img{
       border-radius: 50%;
-      // background-color: var(--yellow-theme-main-color);  
-      box-shadow: 0px 0px 10px var(--yellow-main-text-color);
+      background-color: var(--yellow-theme-main-color);  
+      box-shadow: 0px 0px 10px var(--yellow-theme-sub-text-color);
       width: 200px;   
       height: 200px;
       object-fit: cover;
