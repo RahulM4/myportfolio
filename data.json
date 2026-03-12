@@ -1,0 +1,212 @@
+{
+  "personal": {
+    "name": "Rahul Mahto",
+    "initials": "RM",
+    "tagline": "Open to new opportunities",
+    "email": "rahulmahto.iiita@gmail.com",
+    "phone": "+91-9546536837",
+    "location": "Kolkata, West Bengal, India",
+    "linkedin": "https://www.linkedin.com/in/rahulm4/",
+    "github": "https://github.com/rahulm4",
+    "portfolio": "#",
+    "resumeUrl": "#",
+    "description": "Full-stack developer & ML researcher at <strong>Tata Consultancy Services</strong>. Published in <strong>Springer</strong>. 500+ DSA problems solved. Building scalable backends and exploring federated learning & cybersecurity."
+  },
+
+  "titles": [
+    "Assistant System Engineer",
+    "Full-Stack Developer",
+    "ML Researcher",
+    "Ethical Hacker",
+    "Advanced Math Expert",
+    "Backend Engineer"
+  ],
+
+  "stats": [
+    { "value": "500+", "label": "DSA Problems Solved" },
+    { "value": "8.00", "label": "CGPA at IIIT-A" },
+    { "value": "91%",  "label": "FL Model Accuracy" },
+    { "value": "1743", "label": "LeetCode Rating" }
+  ],
+
+  "about": [
+    "I'm <strong>Rahul Mahto</strong>, a software developer based in <strong>Kolkata, India</strong>. I graduated from <strong>IIIT Allahabad</strong> with a B.Tech in Information Technology (CGPA: 8.00) and currently work as an <strong>Assistant System Engineer at TCS</strong>.",
+    "I specialize in <strong>backend development</strong>, <strong>REST APIs</strong>, and <strong>machine learning</strong>. My research on Federated Learning for Pneumonia Diagnosis was <strong>published in a Springer conference</strong>, achieving 91% model accuracy while preserving full data privacy.",
+    "I've also interned as an <strong>Ethical Hacker at CDAC Noida</strong> and worked as an <strong>Advanced Math Expert at Chegg India</strong>, reflecting my passion for security, rigorous reasoning, and education."
+  ],
+
+  "skills": [
+    {
+      "category": "Languages",
+      "icon": "fas fa-code",
+      "items": ["Java", "Python", "C++", "SQL"]
+    },
+    {
+      "category": "Backend Development",
+      "icon": "fas fa-server",
+      "items": ["Node.js", "REST APIs", "Microservices", "System Design"]
+    },
+    {
+      "category": "Frontend & Full-Stack",
+      "icon": "fas fa-globe",
+      "items": ["React", "JavaScript", "HTML5", "CSS3", "MERN Stack"]
+    },
+    {
+      "category": "Databases",
+      "icon": "fas fa-database",
+      "items": ["MySQL", "MongoDB"]
+    },
+    {
+      "category": "Tools & Cloud",
+      "icon": "fas fa-tools",
+      "items": ["Git", "Docker (Basics)", "Linux", "AWS EC2 / S3 / IAM"]
+    },
+    {
+      "category": "Software Engineering",
+      "icon": "fas fa-cogs",
+      "items": ["OOP", "SDLC", "DSA", "Debugging", "Cybersecurity"]
+    }
+  ],
+
+  "projects": [
+    {
+      "num": "01",
+      "icon": "🫁",
+      "name": "Diagnosis of Pneumonia Using Federated Learning",
+      "badge": { "icon": "fas fa-book", "label": "Springer Publication" },
+      "description": "Designed a distributed FL system across multiple client nodes for privacy-preserving training. Implemented data preprocessing, model aggregation, and secure client–server communication. Achieved <strong>91% model accuracy</strong> with fully decentralized data.",
+      "tags": ["Python", "TensorFlow", "Federated Learning", "Distributed Systems"],
+      "links": [
+        { "icon": "fab fa-github", "label": "GitHub", "url": "https://github.com/rahulm4", "style": "default" },
+        { "icon": "fas fa-external-link-alt", "label": "Springer", "url": "#", "style": "pub" }
+      ]
+    },
+    {
+      "num": "02",
+      "icon": "🧾",
+      "name": "Accountsy Bill — Invoice Management System",
+      "badge": { "icon": "fas fa-globe", "label": "Live Project" },
+      "description": "Full-stack invoicing platform with authentication, billing workflows, and PDF generation. Built RESTful APIs and optimized backend for concurrent users. Enhanced admin reporting through dashboard improvements.",
+      "tags": ["Node.js", "Express", "MongoDB", "React", "REST APIs"],
+      "links": [
+        { "icon": "fab fa-github", "label": "GitHub", "url": "https://github.com/rahulm4", "style": "default" },
+        { "icon": "fas fa-globe", "label": "Live Demo", "url": "#", "style": "pub" }
+      ]
+    },
+    {
+      "num": "03",
+      "icon": "💬",
+      "name": "Real-time Chat Application",
+      "badge": null,
+      "description": "Full-featured real-time messaging app built on the MERN stack with Socket.io — featuring rooms, presence indicators, and instant message delivery at scale.",
+      "tags": ["MongoDB", "Express", "React", "Node.js", "Socket.io"],
+      "links": [
+        { "icon": "fab fa-github", "label": "GitHub", "url": "https://github.com/rahulm4", "style": "default" }
+      ]
+    },
+    {
+      "num": "04",
+      "icon": "📷",
+      "name": "Multi-Camera People Tracking System",
+      "badge": null,
+      "description": "Computer vision system that tracks individuals across multiple camera feeds using re-identification algorithms to maintain consistent identity across camera transitions in real-time.",
+      "tags": ["Python", "OpenCV", "PyTorch", "Re-ID"],
+      "links": [
+        { "icon": "fab fa-github", "label": "GitHub", "url": "https://github.com/rahulm4", "style": "default" }
+      ]
+    }
+  ],
+
+  "experience": [
+    {
+      "role": "Assistant System Engineer",
+      "company": "Tata Consultancy Services (TCS)",
+      "location": "Kolkata, India",
+      "period": "Apr 2025 — Present",
+      "dotColor": "accent",
+      "bullets": [
+        "Working with JavaScript, Java, MySQL, RESTful APIs, and backend development following software engineering best practices.",
+        "Optimized SQL queries for analytics modules, improving response time and system performance.",
+        "Worked across full SDLC phases: requirement analysis, development, testing, and deployment.",
+        "Actively building expertise in scalable backends and high-performance systems."
+      ],
+      "tags": ["Java", "JavaScript", "MySQL", "REST APIs", "Backend Development", "SDLC"]
+    },
+    {
+      "role": "Ethical Hacking Intern",
+      "company": "Centre for Development of Advanced Computing (CDAC)",
+      "location": "Noida, India",
+      "period": "Aug 2024 — Oct 2024",
+      "dotColor": "green",
+      "bullets": [
+        "Conducted vulnerability assessments and penetration testing on applications and networks.",
+        "Documented security gaps and mitigation strategies to improve system reliability and resilience."
+      ],
+      "tags": ["Penetration Testing", "Vulnerability Assessment", "Network Security", "Cybersecurity"]
+    },
+    {
+      "role": "Advanced Math Expert",
+      "company": "Chegg India Private Limited",
+      "location": "Remote",
+      "period": "Freelance",
+      "dotColor": "purple",
+      "bullets": [
+        "Solved advanced mathematics problems covering algebra, calculus, discrete math, and statistics for students globally.",
+        "Delivered detailed step-by-step explanations to build conceptual understanding in learners.",
+        "Maintained high accuracy and quality standards consistently across hundreds of solutions."
+      ],
+      "tags": ["Advanced Mathematics", "Problem Solving", "Teaching", "Analytical Reasoning"]
+    }
+  ],
+
+  "education": [
+    {
+      "degree": "B.Tech in Information Technology",
+      "institution": "Indian Institute of Information Technology (IIIT) Allahabad",
+      "location": "Prayagraj, Uttar Pradesh, India",
+      "period": "2020 – 2024",
+      "cgpa": "8.00",
+      "icon": "🎓",
+      "subjects": ["Algorithms & DSA", "Machine Learning", "Networks", "Cybersecurity", "OOP & System Design"]
+    }
+  ],
+
+  "achievements": [
+    {
+      "icon": "📚",
+      "title": "Springer Conference Publication",
+      "description": "ML research on Federated Learning for Pneumonia Diagnosis published in an international peer-reviewed Springer conference.",
+      "meta": "Research Publication · 2024"
+    },
+    {
+      "icon": "💡",
+      "title": "500+ DSA Problems Solved",
+      "description": "Demonstrated strong algorithmic thinking by solving over 500 problems across competitive programming platforms.",
+      "meta": "LeetCode · CodeChef · Codeforces"
+    },
+    {
+      "icon": "🏆",
+      "title": "LeetCode Rating: 1743",
+      "description": "Achieved a competitive rating of 1743 on LeetCode through consistent problem solving and contest participation.",
+      "meta": "LeetCode · Active"
+    },
+    {
+      "icon": "⭐",
+      "title": "CodeChef 3-Star Coder",
+      "description": "Earned 3-star rating on CodeChef by competing in monthly challenges and long contests consistently.",
+      "meta": "CodeChef · 3★"
+    },
+    {
+      "icon": "🎯",
+      "title": "Codeforces Pupil",
+      "description": "Ranked as Pupil on Codeforces, demonstrating solid algorithmic problem-solving in rated contests.",
+      "meta": "Codeforces · Pupil"
+    },
+    {
+      "icon": "🔒",
+      "title": "Ethical Hacking — CDAC Noida",
+      "description": "Completed ethical hacking internship performing real-world penetration testing and security gap analysis.",
+      "meta": "CDAC · Aug–Oct 2024"
+    }
+  ]
+}
